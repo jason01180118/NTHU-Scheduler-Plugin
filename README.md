@@ -1,3 +1,7 @@
+# test截圖
+![image](https://github.com/jason01180118/NTHU-Scheduler-Plugin/assets/73685101/7a47d3f1-b690-438e-9686-dd525f4d01cc)
+
+
 # Scheduler Plugin
 ## Goal
 In this assignment, you are asked to implement a custom Kubernetes scheduler and learn the following skills:
