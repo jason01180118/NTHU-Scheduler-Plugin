@@ -102,7 +102,6 @@ func (cs *CustomScheduler) Score(ctx context.Context, state *framework.CycleStat
 	case mostMode:
 		memory *= 1
 	}
-	fmt.Print(memory, cs.scoreMode)
 
 	return memory, nil
 }
@@ -125,7 +124,6 @@ func (cs *CustomScheduler) NormalizeScore(ctx context.Context, state *framework.
 		}
 
 	}
-	fmt.Print(minScore, maxScore, framework.MinNodeScore, framework.MaxNodeScore)
 	for i := 0; i < len(scores); i++ {
 		scores[i].Score = (framework.MaxNodeScore - framework.MinNodeScore) * (scores[i].Score - minScore) / (maxScore - minScore)
 	}
