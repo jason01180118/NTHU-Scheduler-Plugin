@@ -31,9 +31,32 @@ Tag “TODO” is the place you need to implement, which includes PreFilter(), S
     ```
 - deploy the scheduler
     ```
-    make buildImage
+    make buildLocal
     make loadImage
     make deploy
+    ```
+- add 3 pod
+    ```
+    kubectl create -f pod-example.yaml
+    kubectl create -f pod-example2.yaml
+    kubectl create -f pod-example3.yaml
+    ```
+- delete all pod
+    ```
+    kubectl delete po nginx
+    kubectl delete po nginx2
+    kubectl delete po nginx3
+    ```
+- get status
+    ```
+    kubectl get po -o wide
+    ```
+- change mode
+    charts/values.yaml
+    ```
+    mode: Least
+    or
+    mode: Most
     ```
 - remove the scheduler
     ```
