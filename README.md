@@ -1,6 +1,11 @@
 # test截圖
 ![image](https://github.com/jason01180118/NTHU-Scheduler-Plugin/assets/73685101/7a47d3f1-b690-438e-9686-dd525f4d01cc)
 
+# 兩種mode截圖
+![image](https://github.com/jason01180118/NTHU-Scheduler-Plugin/assets/73685101/f9fc44fd-3b9a-46b9-8f64-60e40d54b062)
+
+![image](https://github.com/jason01180118/NTHU-Scheduler-Plugin/assets/73685101/4b933a03-0698-4c12-b8e0-ebbee8cab192)
+
 
 # Scheduler Plugin
 ## Goal
